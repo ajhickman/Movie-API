@@ -1,0 +1,95 @@
+.App {
+  /* text-align: center; */
+  background-color: darkolivegreen;
+  font-family: 'Chango', cursive;
+}
+
+.SectionTitle {
+  text-align: center;
+  color: goldenrod;
+  font-size: 3em;
+  padding: 0.5em;
+  text-shadow: 1px 1px black;
+}
+
+.MoviesContainer {
+  position: relative;
+  overflow-x: scroll;
+}
+
+.Movies{
+  display: flex;
+}
+
+.container{
+  display: flex;
+  height: 450px;
+}
+
+.posterContainer{
+  display: relative;
+  width: 300px;
+}
+
+.posterContainer:hover>img{
+  opacity: .1;
+  height: 450px;
+  transition: 0.5s;
+}
+
+.description{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  opacity: 0;
+  width: 300px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.description:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.poster{
+  width: 300px;
+  position: absolute;
+}
+
+.titles{
+  text-align: center;
+  color: goldenrod;
+  font-size: 1.25em;
+  padding: 0.5em;
+  text-shadow: 1px 1px black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 300px;
+  width: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: goldenrod;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: url(panda.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: url(panda.png);
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
