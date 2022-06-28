@@ -69,27 +69,28 @@
 }
 
 /* width */
-::-webkit-scrollbar {
-  height: 300px;
+/* ::-webkit-scrollbar {
+  height: 30px;
   width: 50px;
-}
+  color: darkolivegreen;
+} */
 
 /* Track */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: goldenrod;
-}
+} */
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background-image: url(panda.png);
   background-size: 200px;
   background-repeat: no-repeat;
   background-position-x: center;
-}
+} */
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background-image: url(panda.png);
   background-size: 600px;
   background-repeat: no-repeat;
-}
+} */
